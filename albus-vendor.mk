@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/albus/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/motorola/albus/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
-    vendor/motorola/albus/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/albus/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/albus/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
     vendor/motorola/albus/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
@@ -31,24 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/motorola/albus/proprietary/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/motorola/albus/proprietary/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
-    vendor/motorola/albus/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
-    vendor/motorola/albus/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
-    vendor/motorola/albus/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
-    vendor/motorola/albus/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
-    vendor/motorola/albus/proprietary/etc/firmware/a540_gpmu.fw2:system/etc/firmware/a540_gpmu.fw2 \
     vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
@@ -61,21 +42,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/motorola/albus/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/motorola/albus/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
-    vendor/motorola/albus/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/motorola/albus/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/motorola/albus/proprietary/etc/firmware/marley-dsp1-ultrasound.wmfw:system/etc/firmware/marley-dsp1-ultrasound.wmfw \
     vendor/motorola/albus/proprietary/etc/firmware/marley-dsp2-aov-frontend.wmfw:system/etc/firmware/marley-dsp2-aov-frontend.wmfw \
     vendor/motorola/albus/proprietary/etc/firmware/marley-dsp3-aov-control.wmfw:system/etc/firmware/marley-dsp3-aov-control.wmfw \
-    vendor/motorola/albus/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
-    vendor/motorola/albus/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
-    vendor/motorola/albus/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
-    vendor/motorola/albus/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/motorola/albus/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
-    vendor/motorola/albus/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
-    vendor/motorola/albus/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
-    vendor/motorola/albus/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
-    vendor/motorola/albus/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/motorola/albus/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
+    vendor/motorola/albus/proprietary/etc/firmware/emmc_ffu_15_FE12MB.fw:system/etc/firmware/emmc_ffu_15_FE12MB.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/emmc_ffu_15_QE13MB.fw:system/etc/firmware/emmc_ffu_15_QE13MB.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/emmc_ffu_15_RC14MB.fw:system/etc/firmware/emmc_ffu_15_RC14MB.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/emmc_ffu_15_RC1BMB.fw:system/etc/firmware/emmc_ffu_15_RC1BMB.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/emmc_ffu_15_RE14MB.fw:system/etc/firmware/emmc_ffu_15_RE14MB.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/emmc_ffu_15_RX14MB.fw:system/etc/firmware/emmc_ffu_15_RX14MB.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/emmc_ffu_15_RX1BMB.fw:system/etc/firmware/emmc_ffu_15_RX1BMB.fw \
+    vendor/motorola/albus/proprietary/etc/firmware/vrgain.bin:system/etc/firmware/vrgain.bin \
     vendor/motorola/albus/proprietary/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat:system/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat \
     vendor/motorola/albus/proprietary/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat:system/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat \
     vendor/motorola/albus/proprietary/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat:system/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat \
@@ -182,7 +159,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/motorola/albus/proprietary/vendor/bin/adspd:system/vendor/bin/adspd \
     vendor/motorola/albus/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
-    vendor/motorola/albus/proprietary/vendor/bin/akmd09912:system/vendor/bin/akmd09912 \
     vendor/motorola/albus/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
     vendor/motorola/albus/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/motorola/albus/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
@@ -210,7 +186,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/bin/mm-qcamera-app:system/vendor/bin/mm-qcamera-app \
     vendor/motorola/albus/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/motorola/albus/proprietary/vendor/bin/mods_camd:system/vendor/bin/mods_camd \
-    vendor/motorola/albus/proprietary/vendor/bin/motosh:system/vendor/bin/motosh \
     vendor/motorola/albus/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/motorola/albus/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/motorola/albus/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
@@ -257,7 +232,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/motorola/albus/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/motorola/albus/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
-    vendor/motorola/albus/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
+    vendor/motorola/albus/proprietary/vendor/firmware/libpn553_fw.so:system/vendor/firmware/libpn553_fw.so \
     vendor/motorola/albus/proprietary/vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar:system/vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
     vendor/motorola/albus/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
     vendor/motorola/albus/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
